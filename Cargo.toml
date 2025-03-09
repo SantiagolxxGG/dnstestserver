@@ -1,0 +1,12 @@
+[package]
+name = "dns"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bincode = { version = "2.0.0", features = ["serde"] }
+console = "0.15.11"
+crossterm = "0.28.1"
+dialoguer = "0.11.0"
+indicatif = "0.17.11"
+serde = { version = "1.0.218", features = ["derive"] }
